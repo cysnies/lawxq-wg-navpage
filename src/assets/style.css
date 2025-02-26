@@ -6,6 +6,7 @@ body {
   background-color: #f0f0f0;
   display: flex;
   height: 100vh;
+  overflow: hidden; /* 隐藏 body 的滚动条 */
 }
 
 /* 侧边栏样式 */
@@ -51,10 +52,11 @@ body {
 
 /* iframe 容器样式 */
 .iframe-container {
-  flex: 1; /* 占据剩余空间 */
+  flex: 1;
+  padding: 0;
   height: 100vh;
   box-sizing: border-box;
-  transition: flex 0.3s ease; /* 添加过渡效果 */
+  transition: flex 0.3s ease;
 }
 
 .iframe-container iframe {
