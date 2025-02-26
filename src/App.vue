@@ -32,5 +32,9 @@ export default {
 </script>
 
 <style scoped>
-/* 可以在这里添加额外的局部样式 */
+#app {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
 </style>
