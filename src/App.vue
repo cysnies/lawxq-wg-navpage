@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" style="display: flex;">
     <Sidebar @load-page="loadPage" @sidebar-toggle="handleSidebarToggle" />
     <div class="iframe-container">
       <iframe :src="currentUrl" frameborder="0"></iframe>
